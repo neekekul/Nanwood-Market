@@ -1,0 +1,66 @@
+body{
+	background-color: #FFFFFF;
+}
+
+#main{
+	width: 100%;
+	height: 9vw;
+	background-color: #e1b6a5;
+	margin-top: -1.1vw;
+	border: none;
+}
+
+#main figure{
+	display: block;
+	float: left;
+	margin-top: 1.1vw;
+	margin-left: 10vw;
+	width: 7vw;
+	height: 6.3vw;
+}
+
+#main figure a #Logo{
+	margin-left: 0vw;
+	margin-top: 0vw;
+	width: 7vw;
+	height: 7vw;
+
+}
+
+#main nav{
+	float: right;
+	background-color: #e1b6a5;
+	width: 35%;
+	height: 6vw;
+	margin-right: 8vw;
+}
+
+#main nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#main ul li{
+    float: right;
+}
+
+#main nav ul li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: .7vw 1.5vw;
+    margin-top: 2.8vw;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 0;
+    font-size: 1vw;
+}
+
+#main nav ul li a:hover{
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	cursor: pointer;
+}
