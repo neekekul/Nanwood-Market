@@ -60,7 +60,7 @@ body{
 }
 
 .main nav ul li a:hover{
-	opacity: 0.6;
+	opacity: 0.4;
 	filter: alpha(opacity=60);
 	cursor: pointer;
 }
@@ -154,6 +154,7 @@ div #bestbutton:active{
 #social #socialmedia .fa-instagram{
     background-color: #e1b6a5;
     color: white;
+    margin-top: 1.7vw;
     
 }
 
@@ -176,18 +177,46 @@ div #bestbutton:active{
    
 }
 
+.col-lg-12{
+    display: block;
+}
+
 .item_box{
     font-family: futura-pt, sans-serif;
 	font-style: normal;
     font-weight: 300;
-    margin-top: 1vw;
+    margin-top: .7vw;
+}
+
+.photo-thumb{
+    border: 1px solid #d3d3d3;
+}
+
+.comment{
+    border: 1px solid #d3d3d3;
+}
+
+#info{
+    width: 100%;
+    margin-top: 100vw;
+    height: 15vw;
+    background-color: #a5b2e1;
+    font-family: futura-pt, sans-serif;
+	font-style: normal;
+    font-weight: 300;
+    
+}
+
+#info p{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
 }
 
 #copyright{
 	width: 100%;
-    margin-top: -1vw;
-    height: 5vw;
-	background-color: #FFFFFF;
+    margin-top: .7vw;
+    height: 2vw;
     font-family: futura-pt, sans-serif;
 	font-style: italic;
     font-weight: 300;

@@ -82,14 +82,16 @@
                             echo "<a href='{$pic_link}' target='_blank'>{$pic_created_time}</a>";
                         echo "</div>";
                     echo "</p>";
-                    echo "<p>{$pic_text}</p>";
+                    echo "<p class='comment'>{$pic_text}</p>";
                 echo "</p>";
             echo "</div>";
             }
         ?>
 	</div>
+	<div id="info">
+	    <p>well well well</p>
+	</div>
 	<div id="copyright">
-        <hr/>
         <p>Copyright © 2018 Nanwood Market</p>
 
     </div>
